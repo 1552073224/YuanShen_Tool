@@ -3,6 +3,7 @@
 import cv2
 import numpy
 import time
+import PIL
 
 #code
 tele_sign = cv2.imread('Images/teleportsign.png')
