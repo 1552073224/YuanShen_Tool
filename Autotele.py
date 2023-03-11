@@ -1,5 +1,4 @@
 #一个准备开启的小项目
-#通过识别图像实现
 import cv2
 import numpy
 import time
