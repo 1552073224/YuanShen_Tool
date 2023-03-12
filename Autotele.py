@@ -1,10 +1,12 @@
-#一个准备开启的小项目
+
 import cv2
 import numpy
 import time
 import PIL
+import keyboard
 
-#code
+
+'''
 tele_sign = cv2.imread('Images/teleportsign.png')
 tele_ori = cv2.imread('Images/part.png')
 
@@ -23,3 +25,11 @@ print(f'{round(ltime - ftime,3)}s')
 cv2.imshow('img',tele_ori)
 cv2.waitKey()
 cv2.destoryAllWindows()
+'''
+#code
+def presskey(key,slpt):
+    keyboard.press(key)
+    time.sleep(slpt)
+while 1:
+    keyboard.wait(' ')
+    presskey('f',1/60)
